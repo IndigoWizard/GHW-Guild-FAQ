@@ -121,6 +121,8 @@ a {
 
 #faq {
 	margin-bottom: 0;
+	min-height: 100vh;
+	height: auto;
 }
 .faq-header h1 {
   border-bottom: #86654C 4px solid;
@@ -216,8 +218,11 @@ label {
 
 .answer p {
 	padding: 2em;
+	text-align: center;
 }
-
+.answer img {
+	width: 100%;
+}
 input:checked~.question label::before {
 	border-left: 15px solid transparent;
 	border-top: 20px solid white;
